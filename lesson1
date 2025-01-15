@@ -1,0 +1,9 @@
+# print("2 * 2=", 2+2)
+
+name = input("What is your name?")
+
+age = input("How old are you?")
+
+film = input("your favorite film?")
+
+print("His name is", name,".", "He is",age, "his favorite film is", film)

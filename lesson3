@@ -1,0 +1,22 @@
+# int() - с целыми числами всегда со ()
+# float() - с не целами цифрами
+# str () - c "" текст
+# bool () - true или false
+
+# c =float ( input ("your c"))
+# f = 9/5 * c + 32
+# d = int(f)
+# print ("в цельсиях это ",c, " в фаренгейтах ",f, "целое ", d)
+# print(f"celcium: {c}. in far: {f}. f in integer: {int(f)}.")
+
+# num1 = 5
+# print(num1)
+# num2 = float(num1)
+# print(num2)
+
+блюдо = str ( input ("выберите блюдо"))
+блюдо = 350
+напиток= str ( input ("выберите напиток"))
+напиток = 100
+заказ = блюдо + напиток
+print(f"ваш заказ на сумму: {заказ}")
